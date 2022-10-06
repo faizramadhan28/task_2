@@ -1,0 +1,131 @@
+body {
+    background-color: darkgray;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.header {
+    padding: 10px;
+    background-color: #008B8B;
+}
+.header .judul {
+    background-color: white;
+    color: #008B8B;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.header a{
+    color: white;
+    padding: 20px;
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.content{
+    padding: 20px;
+    background-color: #008B8B;
+    
+}
+.list-produk{
+    color: black;
+    background-color: white;
+    margin: 5px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.gambar
+{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.tombol
+{
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 7px;
+    display: block;
+    width: 20%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+
+
+}
+.tombol-detail
+{
+    background-color: green;
+}
+.list-produk h2{
+    color: #008B8B;
+    font-size: 20px;
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #444;
+
+    width: 100%;
+    border: 5px solid #000a11;
+}
+ 
+.table1 tr{
+    background: #6495ED;
+    color: #444;
+    font-weight: normal;
+}
+ 
+.table1 td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+ 
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tombol-back{
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px;
+    display: block;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+}
+
+
+
+
+
+ 
+
+
+
